@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Wed Apr 27 08:40:21 2022
+# Process ID: 18060
+# Current directory: C:/Users/Samuel Kebadu/OneDrive - George Mason University - O365 Production/426 stuff/neuro-FPGA/neuro-FPGA.runs/fir_compiler_0_synth_1
+# Command line: vivado.exe -log fir_compiler_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source fir_compiler_0.tcl
+# Log file: C:/Users/Samuel Kebadu/OneDrive - George Mason University - O365 Production/426 stuff/neuro-FPGA/neuro-FPGA.runs/fir_compiler_0_synth_1/fir_compiler_0.vds
+# Journal file: C:/Users/Samuel Kebadu/OneDrive - George Mason University - O365 Production/426 stuff/neuro-FPGA/neuro-FPGA.runs/fir_compiler_0_synth_1\vivado.jou
+#-----------------------------------------------------------
+source fir_compiler_0.tcl -notrace

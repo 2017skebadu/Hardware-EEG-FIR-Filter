@@ -2,8 +2,8 @@
 # Vivado v2020.2 (64-bit)
 # SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
 # IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
-# Start of session at: Wed Apr 27 11:21:38 2022
-# Process ID: 27464
+# Start of session at: Tue May  3 19:48:42 2022
+# Process ID: 17896
 # Current directory: C:/Users/Samuel Kebadu/OneDrive - George Mason University - O365 Production/426 stuff/neuro-FPGA/neuro-FPGA.runs/synth_1
 # Command line: vivado.exe -log XADC_main.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source XADC_main.tcl
 # Log file: C:/Users/Samuel Kebadu/OneDrive - George Mason University - O365 Production/426 stuff/neuro-FPGA/neuro-FPGA.runs/synth_1/XADC_main.vds
@@ -17,76 +17,78 @@ INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a35t
 INFO: [Device 21-403] Loading part xc7a35tcpg236-1
 INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
 INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
-INFO: [Synth 8-7075] Helper process launched with PID 50744
+INFO: [Synth 8-7075] Helper process launched with PID 25528
 ---------------------------------------------------------------------------------
-Starting RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 1146.828 ; gain = 0.199
+Starting RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 1147.574 ; gain = 4.066
 ---------------------------------------------------------------------------------
-INFO: [Synth 8-638] synthesizing module 'XADC_main' [C:/Users/Samuel Kebadu/OneDrive - George Mason University - O365 Production/426 stuff/neuro-FPGA/neuro-FPGA.srcs/sources_1/new/XADC_main.vhd:42]
-INFO: [Synth 8-3491] module 'xadc_wiz_0' declared at 'C:/Users/Samuel Kebadu/OneDrive - George Mason University - O365 Production/426 stuff/neuro-FPGA/neuro-FPGA.runs/synth_1/.Xil/Vivado-27464-DESKTOP-P60747U/realtime/xadc_wiz_0_stub.v:5' bound to instance 'inst_xadc' of component 'xadc_wiz_0' [C:/Users/Samuel Kebadu/OneDrive - George Mason University - O365 Production/426 stuff/neuro-FPGA/neuro-FPGA.srcs/sources_1/new/XADC_main.vhd:76]
-INFO: [Synth 8-6157] synthesizing module 'xadc_wiz_0' [C:/Users/Samuel Kebadu/OneDrive - George Mason University - O365 Production/426 stuff/neuro-FPGA/neuro-FPGA.runs/synth_1/.Xil/Vivado-27464-DESKTOP-P60747U/realtime/xadc_wiz_0_stub.v:5]
-INFO: [Synth 8-6155] done synthesizing module 'xadc_wiz_0' (1#1) [C:/Users/Samuel Kebadu/OneDrive - George Mason University - O365 Production/426 stuff/neuro-FPGA/neuro-FPGA.runs/synth_1/.Xil/Vivado-27464-DESKTOP-P60747U/realtime/xadc_wiz_0_stub.v:5]
-INFO: [Synth 8-256] done synthesizing module 'XADC_main' (2#1) [C:/Users/Samuel Kebadu/OneDrive - George Mason University - O365 Production/426 stuff/neuro-FPGA/neuro-FPGA.srcs/sources_1/new/XADC_main.vhd:42]
+INFO: [Synth 8-638] synthesizing module 'XADC_main' [C:/Users/Samuel Kebadu/OneDrive - George Mason University - O365 Production/426 stuff/neuro-FPGA/neuro-FPGA.srcs/sources_1/new/XADC_main.vhd:43]
+INFO: [Synth 8-3491] module 'fir_compiler_0' declared at 'C:/Users/Samuel Kebadu/OneDrive - George Mason University - O365 Production/426 stuff/neuro-FPGA/neuro-FPGA.runs/synth_1/.Xil/Vivado-17896-Bob/realtime/fir_compiler_0_stub.v:6' bound to instance 'five_Hz' of component 'fir_compiler_0' [C:/Users/Samuel Kebadu/OneDrive - George Mason University - O365 Production/426 stuff/neuro-FPGA/neuro-FPGA.srcs/sources_1/new/XADC_main.vhd:98]
+INFO: [Synth 8-6157] synthesizing module 'fir_compiler_0' [C:/Users/Samuel Kebadu/OneDrive - George Mason University - O365 Production/426 stuff/neuro-FPGA/neuro-FPGA.runs/synth_1/.Xil/Vivado-17896-Bob/realtime/fir_compiler_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'fir_compiler_0' (1#1) [C:/Users/Samuel Kebadu/OneDrive - George Mason University - O365 Production/426 stuff/neuro-FPGA/neuro-FPGA.runs/synth_1/.Xil/Vivado-17896-Bob/realtime/fir_compiler_0_stub.v:6]
+INFO: [Synth 8-3491] module 'xadc_wiz_0' declared at 'C:/Users/Samuel Kebadu/OneDrive - George Mason University - O365 Production/426 stuff/neuro-FPGA/neuro-FPGA.runs/synth_1/.Xil/Vivado-17896-Bob/realtime/xadc_wiz_0_stub.v:5' bound to instance 'inst_xadc' of component 'xadc_wiz_0' [C:/Users/Samuel Kebadu/OneDrive - George Mason University - O365 Production/426 stuff/neuro-FPGA/neuro-FPGA.srcs/sources_1/new/XADC_main.vhd:127]
+INFO: [Synth 8-6157] synthesizing module 'xadc_wiz_0' [C:/Users/Samuel Kebadu/OneDrive - George Mason University - O365 Production/426 stuff/neuro-FPGA/neuro-FPGA.runs/synth_1/.Xil/Vivado-17896-Bob/realtime/xadc_wiz_0_stub.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'xadc_wiz_0' (2#1) [C:/Users/Samuel Kebadu/OneDrive - George Mason University - O365 Production/426 stuff/neuro-FPGA/neuro-FPGA.runs/synth_1/.Xil/Vivado-17896-Bob/realtime/xadc_wiz_0_stub.v:5]
+INFO: [Synth 8-256] done synthesizing module 'XADC_main' (3#1) [C:/Users/Samuel Kebadu/OneDrive - George Mason University - O365 Production/426 stuff/neuro-FPGA/neuro-FPGA.srcs/sources_1/new/XADC_main.vhd:43]
 ---------------------------------------------------------------------------------
-Finished RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 1198.785 ; gain = 52.156
+Finished RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 1200.629 ; gain = 57.121
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 1198.785 ; gain = 52.156
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 1200.629 ; gain = 57.121
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 1198.785 ; gain = 52.156
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 1200.629 ; gain = 57.121
 ---------------------------------------------------------------------------------
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1198.785 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1200.629 ; gain = 0.000
 INFO: [Project 1-570] Preparing netlist for logic optimization
 
 Processing XDC Constraints
 Initializing timing engine
 Parsing XDC File [c:/Users/Samuel Kebadu/OneDrive - George Mason University - O365 Production/426 stuff/neuro-FPGA/neuro-FPGA.gen/sources_1/ip/xadc_wiz_0/xadc_wiz_0/xadc_wiz_0_in_context.xdc] for cell 'inst_xadc'
 Finished Parsing XDC File [c:/Users/Samuel Kebadu/OneDrive - George Mason University - O365 Production/426 stuff/neuro-FPGA/neuro-FPGA.gen/sources_1/ip/xadc_wiz_0/xadc_wiz_0/xadc_wiz_0_in_context.xdc] for cell 'inst_xadc'
+Parsing XDC File [c:/Users/Samuel Kebadu/OneDrive - George Mason University - O365 Production/426 stuff/neuro-FPGA/neuro-FPGA.gen/sources_1/ip/fir_compiler_0/fir_compiler_0/fir_compiler_0_in_context.xdc] for cell 'five_Hz'
+Finished Parsing XDC File [c:/Users/Samuel Kebadu/OneDrive - George Mason University - O365 Production/426 stuff/neuro-FPGA/neuro-FPGA.gen/sources_1/ip/fir_compiler_0/fir_compiler_0/fir_compiler_0_in_context.xdc] for cell 'five_Hz'
 Parsing XDC File [C:/Users/Samuel Kebadu/OneDrive - George Mason University - O365 Production/426 stuff/neuro-FPGA/neuro-FPGA.srcs/constrs_1/imports/Downloads/Basys-3-Master.xdc]
 Finished Parsing XDC File [C:/Users/Samuel Kebadu/OneDrive - George Mason University - O365 Production/426 stuff/neuro-FPGA/neuro-FPGA.srcs/constrs_1/imports/Downloads/Basys-3-Master.xdc]
 INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [C:/Users/Samuel Kebadu/OneDrive - George Mason University - O365 Production/426 stuff/neuro-FPGA/neuro-FPGA.srcs/constrs_1/imports/Downloads/Basys-3-Master.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/XADC_main_propImpl.xdc].
 Resolution: To avoid this warning, move constraints listed in [.Xil/XADC_main_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
 Completed Processing XDC Constraints
 
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1266.676 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1288.746 ; gain = 0.000
 INFO: [Project 1-111] Unisim Transformation Summary:
 No Unisim elements were transformed.
 
-Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 1266.676 ; gain = 0.000
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.003 . Memory (MB): peak = 1288.746 ; gain = 0.000
 ---------------------------------------------------------------------------------
-Finished Constraint Validation : Time (s): cpu = 00:00:11 ; elapsed = 00:00:11 . Memory (MB): peak = 1266.676 ; gain = 120.047
+Finished Constraint Validation : Time (s): cpu = 00:00:12 ; elapsed = 00:00:13 . Memory (MB): peak = 1288.746 ; gain = 145.238
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Loading Part and Timing Information
 ---------------------------------------------------------------------------------
 Loading part: xc7a35tcpg236-1
 ---------------------------------------------------------------------------------
-Finished Loading Part and Timing Information : Time (s): cpu = 00:00:11 ; elapsed = 00:00:11 . Memory (MB): peak = 1266.676 ; gain = 120.047
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:12 ; elapsed = 00:00:13 . Memory (MB): peak = 1288.746 ; gain = 145.238
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Applying 'set_property' XDC Constraints
 ---------------------------------------------------------------------------------
 Applied set_property KEEP_HIERARCHY = SOFT for inst_xadc. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for five_Hz. (constraint file  auto generated constraint).
 ---------------------------------------------------------------------------------
-Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:11 ; elapsed = 00:00:11 . Memory (MB): peak = 1266.676 ; gain = 120.047
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:12 ; elapsed = 00:00:13 . Memory (MB): peak = 1288.746 ; gain = 145.238
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:11 ; elapsed = 00:00:11 . Memory (MB): peak = 1266.676 ; gain = 120.047
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:12 ; elapsed = 00:00:13 . Memory (MB): peak = 1288.746 ; gain = 145.238
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start RTL Component Statistics 
 ---------------------------------------------------------------------------------
 Detailed RTL Component Info : 
-+---Adders : 
-	   2 Input   21 Bit       Adders := 1     
 +---Registers : 
-	               21 Bit    Registers := 1     
+	                8 Bit    Registers := 1     
 	                1 Bit    Registers := 1     
-+---Muxes : 
-	   2 Input   21 Bit        Muxes := 1     
 ---------------------------------------------------------------------------------
 Finished RTL Component Statistics 
 ---------------------------------------------------------------------------------
@@ -103,25 +105,25 @@ Finished Part Resource Summary
 Start Cross Boundary and Area Optimization
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:12 ; elapsed = 00:00:13 . Memory (MB): peak = 1266.676 ; gain = 120.047
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:14 ; elapsed = 00:00:14 . Memory (MB): peak = 1288.746 ; gain = 145.238
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Applying XDC Timing Constraints
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:18 ; elapsed = 00:00:18 . Memory (MB): peak = 1294.270 ; gain = 147.641
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:19 ; elapsed = 00:00:20 . Memory (MB): peak = 1290.184 ; gain = 146.676
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Timing Optimization
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Timing Optimization : Time (s): cpu = 00:00:18 ; elapsed = 00:00:18 . Memory (MB): peak = 1314.109 ; gain = 167.480
+Finished Timing Optimization : Time (s): cpu = 00:00:19 ; elapsed = 00:00:20 . Memory (MB): peak = 1309.465 ; gain = 165.957
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Technology Mapping
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Technology Mapping : Time (s): cpu = 00:00:18 ; elapsed = 00:00:18 . Memory (MB): peak = 1314.938 ; gain = 168.309
+Finished Technology Mapping : Time (s): cpu = 00:00:19 ; elapsed = 00:00:20 . Memory (MB): peak = 1310.270 ; gain = 166.762
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start IO Insertion
@@ -139,83 +141,85 @@ Start Final Netlist Cleanup
 Finished Final Netlist Cleanup
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished IO Insertion : Time (s): cpu = 00:00:20 ; elapsed = 00:00:21 . Memory (MB): peak = 1321.711 ; gain = 175.082
+Finished IO Insertion : Time (s): cpu = 00:00:22 ; elapsed = 00:00:23 . Memory (MB): peak = 1316.121 ; gain = 172.613
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Instances
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Instances : Time (s): cpu = 00:00:20 ; elapsed = 00:00:21 . Memory (MB): peak = 1321.711 ; gain = 175.082
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:22 ; elapsed = 00:00:23 . Memory (MB): peak = 1316.121 ; gain = 172.613
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Rebuilding User Hierarchy
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:20 ; elapsed = 00:00:21 . Memory (MB): peak = 1321.711 ; gain = 175.082
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:22 ; elapsed = 00:00:23 . Memory (MB): peak = 1316.121 ; gain = 172.613
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Ports
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Ports : Time (s): cpu = 00:00:20 ; elapsed = 00:00:21 . Memory (MB): peak = 1321.711 ; gain = 175.082
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:22 ; elapsed = 00:00:23 . Memory (MB): peak = 1316.121 ; gain = 172.613
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:00:20 ; elapsed = 00:00:21 . Memory (MB): peak = 1321.711 ; gain = 175.082
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:22 ; elapsed = 00:00:23 . Memory (MB): peak = 1316.121 ; gain = 172.613
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Nets
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Nets : Time (s): cpu = 00:00:20 ; elapsed = 00:00:21 . Memory (MB): peak = 1321.711 ; gain = 175.082
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:22 ; elapsed = 00:00:23 . Memory (MB): peak = 1316.121 ; gain = 172.613
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Writing Synthesis Report
 ---------------------------------------------------------------------------------
 
 Report BlackBoxes: 
-+------+--------------+----------+
-|      |BlackBox name |Instances |
-+------+--------------+----------+
-|1     |xadc_wiz_0    |         1|
-+------+--------------+----------+
++------+---------------+----------+
+|      |BlackBox name  |Instances |
++------+---------------+----------+
+|1     |fir_compiler_0 |         1|
+|2     |xadc_wiz_0     |         1|
++------+---------------+----------+
 
 Report Cell Usage: 
-+------+---------+------+
-|      |Cell     |Count |
-+------+---------+------+
-|1     |xadc_wiz |     1|
-|2     |BUFG     |     1|
-|3     |CARRY4   |     5|
-|4     |LUT1     |     1|
-|5     |LUT4     |     4|
-|6     |LUT5     |     2|
-|7     |FDRE     |    22|
-|8     |IBUF     |     4|
-|9     |OBUF     |    16|
-+------+---------+------+
++------+-------------+------+
+|      |Cell         |Count |
++------+-------------+------+
+|1     |fir_compiler |     1|
+|2     |xadc_wiz     |     1|
+|3     |BUFG         |     1|
+|4     |CARRY4       |     5|
+|5     |LUT1         |     3|
+|6     |LUT5         |     1|
+|7     |LUT6         |     3|
+|8     |FDRE         |    29|
+|9     |IBUF         |     4|
+|10    |OBUF         |    24|
++------+-------------+------+
 ---------------------------------------------------------------------------------
-Finished Writing Synthesis Report : Time (s): cpu = 00:00:20 ; elapsed = 00:00:21 . Memory (MB): peak = 1321.711 ; gain = 175.082
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:22 ; elapsed = 00:00:23 . Memory (MB): peak = 1316.121 ; gain = 172.613
 ---------------------------------------------------------------------------------
 Synthesis finished with 0 errors, 0 critical warnings and 0 warnings.
-Synthesis Optimization Runtime : Time (s): cpu = 00:00:14 ; elapsed = 00:00:19 . Memory (MB): peak = 1321.711 ; gain = 107.191
-Synthesis Optimization Complete : Time (s): cpu = 00:00:21 ; elapsed = 00:00:21 . Memory (MB): peak = 1321.711 ; gain = 175.082
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:15 ; elapsed = 00:00:21 . Memory (MB): peak = 1316.121 ; gain = 84.496
+Synthesis Optimization Complete : Time (s): cpu = 00:00:22 ; elapsed = 00:00:23 . Memory (MB): peak = 1316.121 ; gain = 172.613
 INFO: [Project 1-571] Translating synthesized netlist
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1333.789 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1328.172 ; gain = 0.000
 INFO: [Netlist 29-17] Analyzing 5 Unisim elements for replacement
 INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
 INFO: [Project 1-570] Preparing netlist for logic optimization
 INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1333.789 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1329.133 ; gain = 0.000
 INFO: [Project 1-111] Unisim Transformation Summary:
 No Unisim elements were transformed.
 
 INFO: [Common 17-83] Releasing license: Synthesis
-20 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered.
+23 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered.
 synth_design completed successfully
-synth_design: Time (s): cpu = 00:00:25 ; elapsed = 00:00:27 . Memory (MB): peak = 1333.789 ; gain = 187.160
+synth_design: Time (s): cpu = 00:00:27 ; elapsed = 00:00:29 . Memory (MB): peak = 1329.133 ; gain = 185.625
 INFO: [Common 17-1381] The checkpoint 'C:/Users/Samuel Kebadu/OneDrive - George Mason University - O365 Production/426 stuff/neuro-FPGA/neuro-FPGA.runs/synth_1/XADC_main.dcp' has been generated.
 INFO: [runtcl-4] Executing : report_utilization -file XADC_main_utilization_synth.rpt -pb XADC_main_utilization_synth.pb
-INFO: [Common 17-206] Exiting Vivado at Wed Apr 27 11:22:12 2022...
+INFO: [Common 17-206] Exiting Vivado at Tue May  3 19:49:17 2022...

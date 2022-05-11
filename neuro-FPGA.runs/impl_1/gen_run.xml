@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<GenRun Id="impl_1" LaunchPart="xc7a35tcpg236-1" LaunchTime="1651072896">
+<GenRun Id="impl_1" LaunchPart="xc7a35tcpg236-1" LaunchTime="1651621719">
   <File Type="BITSTR-BMM" Name="XADC_main_bd.bmm"/>
   <File Type="OPT-METHODOLOGY-DRC" Name="XADC_main_methodology_drc_opted.rpt"/>
   <File Type="INIT-TIMING" Name="XADC_main_timing_summary_init.rpt"/>
@@ -100,6 +100,7 @@
       </FileInfo>
     </File>
     <Config>
+      <Option Name="TargetConstrsFile" Val="$PSRCDIR/constrs_1/imports/Downloads/Basys-3-Master.xdc"/>
       <Option Name="ConstrsType" Val="XDC"/>
     </Config>
   </FileSet>
@@ -122,4 +123,5 @@
     <Step Id="write_bitstream"/>
   </Strategy>
   <BlockFileSet Type="BlockSrcs" Name="xadc_wiz_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="fir_compiler_0"/>
 </GenRun>

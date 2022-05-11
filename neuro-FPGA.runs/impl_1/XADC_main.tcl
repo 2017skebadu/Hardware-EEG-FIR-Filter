@@ -115,7 +115,6 @@ proc step_failed { step } {
 OPTRACE "impl_1" END { }
 }
 
-set_msg_config -id {Common 17-41} -limit 10000000
 
 OPTRACE "impl_1" START { ROLLUP_1 }
 OPTRACE "Phase: Init Design" START { ROLLUP_AUTO }
@@ -139,7 +138,8 @@ OPTRACE "set parameters" START { }
 OPTRACE "set parameters" END { }
 OPTRACE "add files" START { }
   add_files -quiet {{C:/Users/Samuel Kebadu/OneDrive - George Mason University - O365 Production/426 stuff/neuro-FPGA/neuro-FPGA.runs/synth_1/XADC_main.dcp}}
-  read_ip -quiet {{c:/Users/Samuel Kebadu/OneDrive - George Mason University - O365 Production/426 stuff/neuro-FPGA/neuro-FPGA.srcs/sources_1/ip/xadc_wiz_0/xadc_wiz_0.xci}}
+  read_ip -quiet {{C:/Users/Samuel Kebadu/OneDrive - George Mason University - O365 Production/426 stuff/neuro-FPGA/neuro-FPGA.srcs/sources_1/ip/xadc_wiz_0/xadc_wiz_0.xci}}
+  read_ip -quiet {{C:/Users/Samuel Kebadu/OneDrive - George Mason University - O365 Production/426 stuff/neuro-FPGA/neuro-FPGA.srcs/sources_1/ip/fir_compiler_0/fir_compiler_0.xci}}
 OPTRACE "read constraints: implementation" START { }
   read_xdc {{C:/Users/Samuel Kebadu/OneDrive - George Mason University - O365 Production/426 stuff/neuro-FPGA/neuro-FPGA.srcs/constrs_1/imports/Downloads/Basys-3-Master.xdc}}
 OPTRACE "read constraints: implementation" END { }
